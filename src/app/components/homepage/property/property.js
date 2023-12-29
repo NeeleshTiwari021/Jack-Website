@@ -3,7 +3,7 @@ import './property.css';
 
 const Property = () => {
   return (
-    <div className=' bg-black p-8 flex items-center gap-4'>
+    <div className='property bg-black p-8 flex items-center gap-4'>
       <div className=' left_property flex flex-col gap-6'>
         <p className=' text-white text-5xl font-light'>Featured Property</p>
         <p className=' text-white'>Welcome to 138 St. Helens Ave at Bloordale Village, an amazing neighbourhood with character.</p>

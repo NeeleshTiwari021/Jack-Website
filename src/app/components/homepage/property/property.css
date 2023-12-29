@@ -5,3 +5,9 @@
 .right_property{
     flex: 6;
 }
+
+@media screen and (max-width: 600px) {
+    .property{
+        flex-direction: column;
+    }
+}
