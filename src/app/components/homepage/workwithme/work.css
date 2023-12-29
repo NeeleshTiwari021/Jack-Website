@@ -1,0 +1,7 @@
+.work{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/yogd3lwzcelb8gtbajkw/work-with-us-1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

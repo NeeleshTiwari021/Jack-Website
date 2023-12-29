@@ -1,0 +1,88 @@
+.neighbourhood-card {
+  position: relative;
+  overflow: hidden;
+  height: 20rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+.upper-text {
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(40%);
+}
+
+.lower-text {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 0;
+  transform: translateY(-40%);
+}
+
+.middle-text {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.neighbourhood-card:hover .upper-text {
+  transform: translateY(-90%);
+}
+
+.neighbourhood-card:hover .lower-text {
+  transform: translateY(90%);
+  opacity: 1;
+}
+
+.neighbourhood-card:hover .middle-text {
+  opacity: 1;
+}
+
+.Neighbourhoods1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../../../public/images/homepage/neighbourhood1.jpeg");
+}
+
+.Neighbourhoods2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../../../public/images/homepage/neighbourhood2.jpeg");
+}
+
+.Neighbourhoods3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../../../public/images/homepage/neighbourhood3.jpeg");
+}
+
+.Neighbourhoods4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../../../public/images/homepage/neighbourhood4.webp");
+}
+
+.Neighbourhoods5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../../../public/images/homepage/neighbourhood5.webp");
+}
+
+.Neighbourhoods6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../../../public/images/homepage/neighbourhood6.jpeg");
+}
+
+.Neighbourhoods7{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../../../public/images/homepage/neighbourhood7.webp");
+}
+
+.Neighbourhoods8{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../../../public/images/homepage/neighbourhood8.webp");
+}
+
+@media screen and (max-width:800px) {
+  .neighbourhoods{
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .text_main_neigh{
+      font-size: 1.25rem;
+  }
+  .buttons_neigh{
+    padding: 0.45rem 2rem;
+  }
+}

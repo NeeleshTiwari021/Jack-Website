@@ -1,0 +1,26 @@
+.linear-gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .cursor-pointer:hover .linear-gradient-overlay {
+    opacity: 1;
+  }
+
+  @media screen and (max-width:700px) {
+    .sale_image{
+        height: 15rem;
+    }
+  }
+
+  @media screen and (max-width:500px) {
+    .sale_grid{
+        grid-template-columns: 1fr;
+    }
+  }

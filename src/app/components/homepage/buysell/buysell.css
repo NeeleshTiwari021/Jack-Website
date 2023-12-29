@@ -1,0 +1,31 @@
+.left_buysell{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../../../public/images/homepage/left_buysell.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 26rem;
+}
+
+.right_buysell{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../../../../public/images/homepage/right_buysell.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 26rem;
+}
+
+@media screen and (max-width: 500px) {
+    .buysell{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .left_buysell{
+        padding: 1rem;
+    }
+
+    .right_buysell{
+        padding: 1rem;
+    }
+}

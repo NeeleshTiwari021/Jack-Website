@@ -1,0 +1,20 @@
+.about{
+    background-image: url("../../../../../public/images/homepage/about_background.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left_side_about{
+    flex: 4;
+}
+
+.right_side_about{
+    flex: 6;
+}
+
+@media screen and (max-width:800px) {
+    .about{
+        flex-direction: column;
+    }
+}
