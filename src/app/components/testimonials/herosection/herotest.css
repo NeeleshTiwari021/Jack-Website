@@ -1,0 +1,17 @@
+.herosection_testimonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/qwutetufdyty4cplzut0/testimonials-3-1");
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+@media screen and (max-width: 500px) {
+    .text_testimonials{
+        font-size: 3rem;
+    }
+
+    .herosection_testimonials{
+        padding: 1rem;
+    }
+}

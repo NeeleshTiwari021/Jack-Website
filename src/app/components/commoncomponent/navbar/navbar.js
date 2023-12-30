@@ -24,12 +24,16 @@ const Navbar = () => {
             ABOUT JACK
             </p>
             </Link>
+            <Link href="/testimonials">
             <p className="hover:underline text-white transition duration-300 font-sans font-bold cursor-pointer text-sm">
             TESTIMONIALS
             </p>
+            </Link>
+            <Link href="/connect">
             <p className="hover:underline text-white transition-all duration-300 font-sans font-bold cursor-pointer text-sm">
             LET&apos;S CONNECT
             </p>
+            </Link>
           </div>
           <div className="md:hidden">
             <button onClick={toggleNavbar} className="text-white">

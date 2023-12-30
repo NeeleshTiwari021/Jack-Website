@@ -1,0 +1,35 @@
+.connect{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/ge8ydeicahfnhz20ddmo/012_dsc00716-1");
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 900px) {
+    .connect{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .connect{
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .right_side_connect{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .connect_text{
+        font-size: 1.8rem;
+    }
+
+    .connect_jack_text{
+        font-size: 1.4rem;
+    }
+
+}
