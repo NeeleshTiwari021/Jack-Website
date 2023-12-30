@@ -1,0 +1,24 @@
+@media screen and (max-width: 800px) {
+    .testimonials_left{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .testimonials{
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .testimonials_left{
+        border: 0;
+    }
+
+    .text_title{
+        text-align: center;
+    }
+
+    .text_author{
+        text-align: end;
+    }
+}

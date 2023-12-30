@@ -1,7 +1,7 @@
 @media screen and (max-width: 500px) {
     .footer{
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
     }
 }
 
@@ -10,8 +10,8 @@
         grid-template-columns: 1fr;
     }
     .footer{
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
     }
 }
 

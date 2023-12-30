@@ -1,0 +1,19 @@
+.meet_about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1579967096694-98f1e3948982?crop=entropy&cs=srgb&fm=jpg&ixid=MXw0MTQ1MnwwfDF8c2VhcmNofDI3MXx8eWVsbG93JTIwd2l0aCUyMGJsYWNrfGVufDB8fHw&ixlib=rb-1.2.1&q=85&w=1920");
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:800px) {
+    .meet_about{
+       padding: 1rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .meet_about{
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+}

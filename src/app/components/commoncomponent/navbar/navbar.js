@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,12 +14,16 @@ const Navbar = () => {
       <nav className={` ${isOpen ? 'bg-black' : 'bg-transparent'} fixed z-10 w-full p-4 px-8`}>
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center cursor-pointer">
+          <Link href="/">
             <img src="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/t6let4dn44daejktvtlu/lightgold_v2" alt="Logo" className="h-12" />
+          </Link>
           </div>
           <div className="hidden md:flex items-center gap-4 space-x-4">
+          <Link href="/about">
             <p className="hover:underline text-white transition duration-300 font-sans font-bold cursor-pointer text-sm">
             ABOUT JACK
             </p>
+            </Link>
             <p className="hover:underline text-white transition duration-300 font-sans font-bold cursor-pointer text-sm">
             TESTIMONIALS
             </p>

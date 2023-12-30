@@ -1,0 +1,7 @@
+.herosection_about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/bhpv8wasvm4euissdnur/about-404-1");
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
