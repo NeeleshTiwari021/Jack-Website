@@ -9,6 +9,11 @@ const Navbar = () => {
     const toggleNavbar = () => {
       setIsOpen(!isOpen);
     };
+
+    const closeNavbar = () => {
+      setIsOpen(false);
+  };
+
   
     return (
       <nav className={` ${isOpen ? 'bg-black' : 'bg-transparent'} fixed z-10 w-full p-4 px-8`}>
@@ -45,15 +50,21 @@ const Navbar = () => {
         {/* Responsive Nav */}
         {isOpen && (
           <div className="md:hidden bg-black h-screen flex flex-col items-start p-8 absolute top-20 left-0 z-20 w-full gap-8">
-            <p className="block text-white mb-2 font-sans font-semibold cursor-pointer text-sm">
+          <Link href="/about">
+            <p onClick={closeNavbar} className="block text-white mb-2 font-sans font-semibold cursor-pointer text-sm">
             ABOUT JACK
             </p>
-            <p className="block text-white mb-2 font-sans font-semibold cursor-pointer text-sm">
+            </Link>
+            <Link href="/testimonials">
+            <p onClick={closeNavbar} className="block text-white mb-2 font-sans font-semibold cursor-pointer text-sm">
             TESTIMONIALS
             </p>
-            <p className="block text-white mb-2 font-sans font-semibold cursor-pointer text-sm">
+            </Link>
+            <Link href="/connect">
+            <p onClick={closeNavbar} className="block text-white mb-2 font-sans font-semibold cursor-pointer text-sm">
             LET&apos;S CONNECT
             </p>
+            </Link>
           </div>
         )}
       </nav>
